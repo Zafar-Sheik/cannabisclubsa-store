@@ -22,7 +22,7 @@ if (process.env.NODE_ENV === "development") {
 
 app.use(express.json());
 
-app.listen(8080, console.log("Running on 8080"));
+app.listen(process.env.PORT || 5000, console.log("Running on 8080"));
 
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes);
