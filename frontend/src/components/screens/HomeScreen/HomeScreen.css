@@ -1,0 +1,61 @@
+.details-container{
+    background-image: url('../../../assets/background-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: darken;
+}
+
+.detail-card{
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+.detail-card:hover{
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+
+ 
+}
+
+
+.strain-image{
+   
+    border: 0.5px solid rgb(85, 82, 82);
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+
+}
+
+.delivery-container{
+    background-image: url('../../../assets/delivery.png');
+    background-color: rgba(0, 0, 0, 0.65);
+    background-position: center;
+
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;    
+
+   
+}
+
+.delivery-color{
+    color: rgb(212, 42, 113);
+}
+
+.subscribe-container{
+    
+    padding: 50px;
+    margin-top: 50px;
+    background-image: url('../../../assets/leaf-bg.jpg');
+   
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
